@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Calculadora-Juros-Composto/static/css/main.f3bf1d99.css",
+    "main.js": "/Calculadora-Juros-Composto/static/js/main.667b3c79.js",
+    "static/js/787.cb5ebac3.chunk.js": "/Calculadora-Juros-Composto/static/js/787.cb5ebac3.chunk.js",
+    "index.html": "/Calculadora-Juros-Composto/index.html",
+    "main.f3bf1d99.css.map": "/Calculadora-Juros-Composto/static/css/main.f3bf1d99.css.map",
+    "main.667b3c79.js.map": "/Calculadora-Juros-Composto/static/js/main.667b3c79.js.map",
+    "787.cb5ebac3.chunk.js.map": "/Calculadora-Juros-Composto/static/js/787.cb5ebac3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3bf1d99.css",
+    "static/js/main.667b3c79.js"
+  ]
+}
