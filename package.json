@@ -1,7 +1,7 @@
 {
   "name": "juros-composto",
   "version": "0.1.0",
-  "homepage": "https://dimyleo.github.io/Calculadora-Juros-Composto/",
+  "homepage": "Calculadora-Juros-Composto/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
