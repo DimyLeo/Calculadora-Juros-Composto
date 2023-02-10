@@ -1,38 +1,83 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.App h1 {
+  font-size: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.head {
+  background-color: var(--bg-container);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72rem;
+}
+
+.labels {
+  margin: 2rem;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.inputs {
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  max-width: 20rem;
+  min-width: 10rem;
+}
+
+@media only screen and ( max-width : 775px ) {
+  .head {
+    width: auto;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and ( max-width : 700px ) {
+  .head {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  .labels {
+    margin: 1rem;
+  }
+
+  .inputs {
+    width: 50rem;
+  }
+}
+
+@media only screen and ( max-width : 590px ) {
+  .head {
+    display: flex;
+    flex-direction: column;
+    width: 56rem;
+    margin-bottom: 2rem;
+  }
+
+  .labels {
+    margin: 1rem;
+  }
+  
+  .inputs {
+    width: 50rem;
+  }
+
+  .App h1 {
+    width: 58rem;
+    margin: 1rem auto;
   }
 }

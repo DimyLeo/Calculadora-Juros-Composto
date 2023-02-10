@@ -1,0 +1,23 @@
+table {
+  margin: auto;
+  background-color: var(--bg-container);
+  border-radius: 1rem;
+  padding: 2rem;
+  font-size: 1.7rem;
+  border-spacing: 0;
+}
+
+table thead {
+  background-color: var(--bg-dark);
+}
+
+table thead th {
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border-radius: 1rem;
+  background-color: var(--bg-dark);
+}
+
+table tbody td {
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border-bottom: 1px solid var(--bottom-line);
+}
