@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Table from './components/Table';
+import logo from './utils/Logo.png';
 
 function App() {
   const [value, setValue] = useState(100);
@@ -21,19 +22,20 @@ function App() {
 
   return (
     <div className="App">
+      <img className='logo' src={logo} alt='logo' />
       <h1>Juros Composto</h1>
       <div className='head'>
         <label htmlFor='value' className='labels'>
-          Valor
-          <input type={'number'} value={value} onChange={(e) => {inputValue(e)}} className='inputs' />
+          <p>Valor</p>
+          <input placeholder='Insira um valor' type={'number'} value={value} onChange={(e) => {inputValue(e)}} className='inputs' />
         </label>
         <label htmlFor='percentage' className='labels'>
-          Porcentagem
-          <input type={'number'} value={percentage} onChange={(e) => {inputPercentage(e)}} className='inputs' />
+          <p>Porcentagem</p>
+          <input placeholder='Insira uma porcentagem' type={'number'} value={percentage} onChange={(e) => {inputPercentage(e)}} className='inputs' />
         </label>
         <label htmlFor='days' className='labels'>
-          Dias
-          <input type={'number'} value={days} onChange={(e) => {inputDays(e)}} className='inputs' />
+          <p>Dias</p>
+          <input placeholder='insira os dias' type={'number'} value={days} onChange={(e) => {inputDays(e)}} className='inputs' />
         </label>
       </div>
       <Table value={Number(value)} percentage={Number(percentage)} days={days} />

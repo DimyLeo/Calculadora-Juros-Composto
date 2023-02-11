@@ -1,8 +1,16 @@
 :root {
   --bg-dark: #2e313a;
   --white: #fff;
+  --black: #000000;
   --bg-container: #22252e;
   --bottom-line: #54585f;
+  --light-table: #a9b1ce;
+  --light-blue: #766D8D;
+  --dark-table: #343843;
+  --purple: #555063;
+  --logout: #7b2a2a;
+  --hover-logout: #9f4242;
+
 }
 
 body {

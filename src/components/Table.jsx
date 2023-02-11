@@ -23,18 +23,20 @@ const Table = ({ value, percentage, days }) => {
     total = newTotal;
   }
   return (
-    <table>
-      <thead>
-        <tr>
-          <th>Dias</th>
-          <th>Investimento</th>
-          <th>Retorno do dia %</th>
-          <th>Meta do dia</th>
-          <th>Valor Acumulado</th>
-        </tr>
-      </thead>
-      <tbody>{tableRows}</tbody>
-    </table>
+    <div className="globalTable">
+      <table className="table">
+        <thead className="thead">
+          <tr>
+            <th>Dias</th>
+            <th>Investimento</th>
+            <th>Retorno do dia %</th>
+            <th>Meta do dia</th>
+            <th>Valor Acumulado</th>
+          </tr>
+        </thead>
+        <tbody className="tbody">{tableRows}</tbody>
+      </table>
+    </div>
   );
 };
 

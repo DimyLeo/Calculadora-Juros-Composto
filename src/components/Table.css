@@ -1,23 +1,144 @@
-table {
-  margin: auto;
+.globalTable {
+  border-radius: 1rem;
   background-color: var(--bg-container);
-  border-radius: 1rem;
-  padding: 2rem;
+}
+
+.table .thead th {
+  padding: 0rem 2rem 0.5rem 2rem;
+  background-color: var(--bg-container);
+  color: var(--white)
+}
+
+.table {
+  border-collapse: collapse;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.table th {
+  color: var(--black);
   font-size: 1.7rem;
-  border-spacing: 0;
+  font-weight: 500;
 }
 
-table thead {
-  background-color: var(--bg-dark);
+.table td {
+  box-shadow: 0 6px 14px 0 rgba(32, 32, 32, 0.75);
+  color: var(--white);
+  font-size: 1.5rem;
+  padding: 0.6rem 5rem;
 }
 
-table thead th {
-  padding: 0.5rem 2rem 0.5rem 2rem;
-  border-radius: 1rem;
-  background-color: var(--bg-dark);
+.button {
+  background: none;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  padding: 0.6rem 5rem;
 }
 
-table tbody td {
-  padding: 0.5rem 2rem 0.5rem 2rem;
-  border-bottom: 1px solid var(--bottom-line);
+.table td:nth-child( 1 ) {
+  background-color: var(--light-table);
+  color: var(--black);
+}
+
+.table td:nth-child( 2 ) {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.table td:nth-child( 3 ) {
+  background-color: var(--dark-table);
+}
+
+.table td:nth-child( 4 ) {
+  background-color: var(--purple);
+}
+
+.table td:nth-child( 5 ) {
+  background-color: var(--light-blue);
+  padding: 0;
+}
+
+@media only screen and ( max-width : 715px ) {
+
+  .table td {
+    font-size: 1.2rem;
+    padding: 0.3rem 2.5rem;
+  }
+
+  .table th {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and ( max-width : 660px ) {
+
+  .table .thead {
+    display: none;
+  }
+
+  .globalTable .table .tbody tr {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .table td {
+    box-shadow: 0 6px 14px 0 rgba(32, 32, 32, 0.75);
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+  .table td:nth-child( 1 ) {
+    background-color: var(--dark-table);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--white);
+  }
+
+  .table td:nth-child( 1 ):before {
+    content: 'Dia:  ';
+    display: inline-block;
+  }
+
+  .table td:nth-child( 2 ) {
+    background-color: var(--dark-table);
+    color: var(--white);
+  }
+
+  .table td:nth-child( 2 ):before {
+    content: 'Investimento:  ';
+    display: inline-block;
+  }
+
+  .table td:nth-child( 3 ) {
+    background-color: var(--dark-table);
+    color: var(--white);
+  }
+
+  .table td:nth-child( 3 ):before {
+    content: 'Retorno do dia %:  ';
+    display: inline-block;
+  }
+
+  .table td:nth-child( 4 ) {
+    background-color: var(--dark-table);
+    color: var(--white);
+  }
+
+  .table td:nth-child( 4 ):before {
+    content: 'Meta do dia:  ';
+    display: inline-block;
+  }
+
+  .table td:nth-child( 5 ) {
+    background-color: var(--dark-table);
+    border-radius: 0 0 1rem 1rem;
+    color: var(--white);
+    padding: 0.3rem 2.5rem;
+  }
+
+  .table td:nth-child( 5 ):before {
+    content: 'Valor Acumulado:  ';
+    display: inline-block;
+  }
 }
