@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Calculadora-Juros-Composto/static/css/main.9dd0a02e.css",
-    "main.js": "/Calculadora-Juros-Composto/static/js/main.24cb9142.js",
+    "main.css": "/Calculadora-Juros-Composto/static/css/main.4d9b406d.css",
+    "main.js": "/Calculadora-Juros-Composto/static/js/main.fe50a826.js",
     "static/js/787.cb5ebac3.chunk.js": "/Calculadora-Juros-Composto/static/js/787.cb5ebac3.chunk.js",
     "static/media/Logo.png": "/Calculadora-Juros-Composto/static/media/Logo.f1a20b88c40f35880b46.png",
     "index.html": "/Calculadora-Juros-Composto/index.html",
-    "main.9dd0a02e.css.map": "/Calculadora-Juros-Composto/static/css/main.9dd0a02e.css.map",
-    "main.24cb9142.js.map": "/Calculadora-Juros-Composto/static/js/main.24cb9142.js.map",
+    "main.4d9b406d.css.map": "/Calculadora-Juros-Composto/static/css/main.4d9b406d.css.map",
+    "main.fe50a826.js.map": "/Calculadora-Juros-Composto/static/js/main.fe50a826.js.map",
     "787.cb5ebac3.chunk.js.map": "/Calculadora-Juros-Composto/static/js/787.cb5ebac3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9dd0a02e.css",
-    "static/js/main.24cb9142.js"
+    "static/css/main.4d9b406d.css",
+    "static/js/main.fe50a826.js"
   ]
 }
