@@ -1,5 +1,6 @@
 :root {
-  --bg-dark: #2e313a;
+  --bg-dark: #141E30;
+  --bg-light: #243B55;
   --white: #fff;
   --black: #000000;
   --bg-container: #22252e;
@@ -17,7 +18,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: var(--bg-dark);
+  background: var(--bg-dark);
+  background: -webkit-linear-gradient(to right, var(--bg-light)5, var(--bg-dark));
+  background: linear-gradient(to right, var(--bg-light), var(--bg-dark));
   color: var(--white);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

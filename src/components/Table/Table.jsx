@@ -1,4 +1,4 @@
-import addComma from "../utils/addComma";
+import addComma from "../../utils/addComma";
 import './Table.css';
 
 const Table = ({ value, percentage, days }) => {
