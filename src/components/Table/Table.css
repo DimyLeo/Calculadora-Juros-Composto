@@ -1,6 +1,9 @@
 .globalTable {
   border-radius: 1rem;
   background-color: var(--bg-container);
+  -webkit-box-shadow: 6px 6px 19px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 6px 19px 0px rgba(0,0,0,0.75);
+  box-shadow: 6px 6px 19px 0px rgba(0,0,0,0.75);
 }
 
 .table .thead th {
